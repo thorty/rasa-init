@@ -1,0 +1,89 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hallo
+    - Guten Tag
+    - Hi
+    - Guten Abend
+    - Guten Morgen
+    - Moin
+
+- intent: goodbye
+  examples: |
+    - bye
+    - bye bye
+    - see you later
+    - Tschau
+    - Bis dann
+    - Machs Gut
+    - Tschüss
+    - Bis bald
+    - Ok. Danke.
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - ja
+    - richtig
+    - jawoll
+    - Gut
+    - japp
+    - jap
+    - jepp
+    - jo
+    - ja danke
+    - ja mann
+
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - nein
+    - ne
+    - nope
+    - auf keinen fall
+    - nicht
+    - bitte nicht
+    - nicht wirklich
+    - das glaube ich nicht
+
+- intent: mood_great
+  examples: |
+    - sau gut
+    - perfekt
+    - gut
+    - sehr gut
+    - mir geht es richtig gut
+    - mir geht es super
+    - ausgezeichnet
+    - richtig gut
+    - total toll
+    - mir geht es blendend
+    - ich fühle mich super
+    - ich fühle mich richtig gut
+    - ich werde die welt retten
+
+
+- intent: mood_unhappy
+  examples: |
+    - nicht so gut
+    - ich bin traurig
+    - ich fühle mich schlecht
+    - mir geht es schlecht
+    - mir geht es garnicht gut
+    - garnicht gut
+    - total mies
+
+
+- intent: bot_challenge
+  examples: |
+    - bist du ein bot
+    - bist du ein mensch
+    - bist du eine maschine
+    - spreche ich mit einem menschen oder einer maschine
+    - bist du menschlich oder ein bot?
