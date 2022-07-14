@@ -19,9 +19,9 @@ docker start myRasabot
 docker exec -it myRasabot bash
 
 ## use rasa into container
-rasa train 
-rasa shell
-rasa run actions --actions actions --debug --auto-reload
+* rasa train 
+* rasa shell
+* rasa run actions --actions actions --debug --auto-reload
 
 
 ## Best Starter Tutorial (I found)
