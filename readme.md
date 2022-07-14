@@ -5,6 +5,8 @@ Follow this readme to get it up and running.
 Have Fun!
 :-) 
 
+
+
 # Howto
 ## 1 Build a dockerimage with name rasavoicedocker
 docker build -t rasa3docker .
@@ -23,6 +25,11 @@ docker exec -it myRasabot bash
 * rasa shell
 * rasa run actions --actions actions --debug --auto-reload
 
-## Best Starter Tutorial (I found)
-https://github.com/RasaHQ/pokedex-demo
-https://www.youtube.com/watch?v=sazsWmP2d3o
+## 3. Starter Tutorials
+
+Tutorial: https://www.youtube.com/watch?v=sazsWmP2d3o
+
+Source: https://github.com/RasaHQ/pokedex-demo
+
+Rasa Youtube Channel in General. Have an eye on the rasa versions. 
+
