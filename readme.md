@@ -8,14 +8,14 @@ Have Fun!
 
 
 # Howto
-## 1 Build a dockerimage with name rasavoicedocker
+## 1 Build a dockerimage with name rasa3docker
 docker build -t rasa3docker .
 
 ## 2. Run and use the image
 
 ### 1. buld container (firsttime run)
 docker run --name rasa3docker -v "${pwd}:/opt/mybot" -w "/opt/mybot" -it rasa3docker bash
-### 2. start container (if Step 1. happend already)
+### 2. start container (if Step 1. happend already and container is closed)
 docker start myRasabot   
 ### 3. get into already startet container
 docker exec -it myRasabot bash
