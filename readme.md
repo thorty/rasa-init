@@ -33,3 +33,6 @@ Source: https://github.com/RasaHQ/pokedex-demo
 
 Rasa Youtube Channel in General. Have an eye on the rasa versions. 
 
+## 4. Current but usage
+
+Just say "hello" and chat. 
