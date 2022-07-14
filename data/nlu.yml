@@ -79,7 +79,6 @@ nlu:
     - garnicht gut
     - total mies
 
-
 - intent: bot_challenge
   examples: |
     - bist du ein bot
