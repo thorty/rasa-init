@@ -6,23 +6,22 @@ Have Fun!
 :-) 
 
 # Howto
-### Build a dockerimage with name rasavoicedocker
+## 1 Build a dockerimage with name rasavoicedocker
 docker build -t rasa3docker .
 
 ## 2. Run and use the image
 
-### buld container
+### 1. buld container (firsttime run)
 docker run --name rasa3docker -v "${pwd}:/opt/mybot" -w "/opt/mybot" -it rasa3docker bash
-### start container
+### 2. start container (if Step 1. happend already)
 docker start myRasabot   
-### get into already startet container
+### 3. get into already startet container
 docker exec -it myRasabot bash
 
-## use rasa into container
+## 4. use rasa into container
 * rasa train 
 * rasa shell
 * rasa run actions --actions actions --debug --auto-reload
-
 
 ## Best Starter Tutorial (I found)
 https://github.com/RasaHQ/pokedex-demo
