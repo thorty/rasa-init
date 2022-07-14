@@ -1,13 +1,9 @@
-Tutorial Source: https://github.com/RasaHQ/pokedex-demo
-https://www.youtube.com/watch?v=sazsWmP2d3o
+# Rasa is for everyone
+This is a german RASA3 Starter Pack with use of docker.
+Follow this readme to get it up and running.
 
-next step use slots to store info: 
-1. ask if user wants mor info about choosen pokemon
-2. ask which info
-3. fetch and play info
-https://www.google.com/search?client=firefox-b-d&q=use+slots+in+rasa#kpvalbx=_2MwGYrehOdbi7_UP2pmq2AU17
-
--- what if user asks other questions?...
+Have Fun!
+:-) 
 
 # Howto
 ### Build a dockerimage with name rasavoicedocker
@@ -29,9 +25,5 @@ rasa run actions --actions actions --debug --auto-reload
 
 
 ## Best Starter Tutorial (I found)
-https://dev.to/petr7555/series/11401
-Rasa YouTube Channel
-
-
-
-
+https://github.com/RasaHQ/pokedex-demo
+https://www.youtube.com/watch?v=sazsWmP2d3o
