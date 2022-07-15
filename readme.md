@@ -16,9 +16,9 @@ docker build -t rasa3docker .
 ### 1. buld container (firsttime run)
 docker run --name rasa3docker -v "${pwd}:/opt/mybot" -w "/opt/mybot" -it rasa3docker bash
 ### 2. start container (if Step 1. happend already and container is closed)
-docker start myRasabot   
+docker start rasa3docker   
 ### 3. get into already startet container
-docker exec -it myRasabot bash
+docker exec -it rasa3docker bash
 
 ## 4. use rasa into container
 * rasa train 
